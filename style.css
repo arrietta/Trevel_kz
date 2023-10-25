@@ -1,0 +1,1099 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 04.START SERVICE DESIGN
+* ----------------------------------------------------------------------------------------
+*/
+.our_services{
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding-top:100px;
+    }
+    .service {
+    background: #fff none repeat scroll 0 0;
+    height: 200px;
+    padding: 55px;
+    margin-bottom:60px;
+    transition: all 0.4s ease 0s;
+    
+    }
+    .icon {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+    color: #f9461d;
+    font-size: 24px;
+    height: 60px;
+    
+    
+    line-height: 56px;
+    margin: -30px auto auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 60px;
+    }
+    .service h4 {
+    font-size: 18px;
+    margin: 35px 0 20px;
+    text-transform: uppercase;
+    }
+    .service img {
+        -webkit-transform: scale(1,1);
+        -webkit-transition-timing-function: ease-out;
+        -webkit-transition-duration: 550ms;
+        -moz-transform: scale(1,1);
+        -moz-transition-timing-function: ease-out;
+        -moz-transition-duration: 550ms;
+    }
+    
+        .service img:hover {
+            -webkit-transform: scale(1.2,1.2);
+            -webkit-transition-timing-function: ease-out;
+            -webkit-transition-duration: 550ms;
+            -moz-transform: scale(1.2,1.2);
+            -moz-transition-timing-function: ease-out;
+            -moz-transition-duration: 550ms;
+        }
+    /*
+    * ----------------------------------------------------------------------------------------
+    * 04.END SERVICE DESIGN
+    * ----------------------------------------------------------------------------------------
+    */
+    
+    /*
+     * ----------------------------------------------------------------------------------------
+     * 05.START WHY CHOOSE US DESIGN
+     * ----------------------------------------------------------------------------------------
+    */
+    .why_choose {position: relative;}
+    .why_choose:before {
+        background:rgba(0, 0, 0, 0) linear-gradient(rgba(34, 38, 75, 0.1), rgba(34, 38, 75, 0.5)) repeat scroll 0 0;
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+    .single-choose {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 4px;
+    padding: 30px 20px;
+    }
+    @media only screen and (max-width:480px) { 
+    .single-choose {margin-bottom:60px;}
+    }
+    .single-choose i{
+    background: #f9461d none repeat scroll 0 0;
+    border: 1px solid #f9461d;
+    border-radius: 100px;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    font-size: 24px;
+    height: 60px;
+    left: 0;
+    line-height: 56px;
+    margin: -30px auto auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 60px;
+    }
+    .single-choose h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-transform: uppercase;
+    }
+    .single-choose p{}
+    
+    
+    /*START COUNTER*/
+    .counter_feature {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .counter_title{}
+    .counter_title h1{
+    color: #fff;
+    margin-top: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    @media only screen and (max-width:768px) { 
+    .counter_title h1{margin-top:0px;margin-bottom:60px;}
+    }
+    .complete-project-area {}
+    
+    .single-project-complete{
+    text-align: center;   
+    }
+    .brnone{border-right: 0px ;}
+    
+    @media only screen and (max-width:768px) { 
+    .single-project-complete {margin-bottom:30px;}
+    }
+    .single-project-complete h2 {
+    font-size: 45px;
+    font-weight: 600;
+    }
+    .single-project-complete h3 {
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 500;
+        margin-top: 0;
+    }
+    
+    .single-project-complete h4 {
+        padding-top: 10px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .single-project-complete h5 {
+        text-align: center;
+        color: rgba(0, 0, 0, 0.6);
+    }
+    .single-project-complete a {
+        text-align: center;
+    }
+    
+    .single-project-complete img{
+        padding:10px;
+    }
+    
+    @media only screen and (max-width:768px) {
+        .single-project-complete img {
+            padding: 10px;
+        }
+    }
+        /*END COUNTER*/
+        /*
+     * ----------------------------------------------------------------------------------------
+     * 05.END WHY CHOOSE US DESIGN
+     * ----------------------------------------------------------------------------------------
+    */
+     
+    /*
+     * ----------------------------------------------------------------------------------------
+     * 07.START TOP DEALS DESIGN
+     * ----------------------------------------------------------------------------------------
+     */
+    .grid figure {
+    cursor: pointer;
+    margin-bottom: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    }
+    .grid figure img {
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+    .grid figure figcaption {
+        padding: 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 1.25em;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    .grid figure figcaption,
+    .grid figure figcaption > a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .grid figure figcaption > a {
+        z-index: 1000;
+        text-indent: 200%;
+        white-space: nowrap;
+        font-size: 0;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    .grid figure h4 {
+        word-spacing: -0.15em;
+        font-weight: 300;
+    }
+    .grid figure h4,
+    .grid figure p { margin: 0 }
+    .grid figure p {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .grid figure p a { color: #fff }
+    figure.effect-sadie figcaption:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 75%);
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 75%);
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 75%);
+        content: '';
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: translate3d(0,50%,0);
+        transform: translate3d(0,50%,0);
+    }
+    figure.effect-sadie h4 {
+        background: #fff none repeat scroll 0 0;
+        color: #222;
+        font-size: 18px;
+        left: 20%;
+        letter-spacing: 1px;
+        padding: 15px 0;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate3d(0px, -50%, 0px);
+        transform: translate3d(0px, -50%, 0px);
+        -webkit-transition: -webkit-transform 0.35s ease 0s, color 0.35s ease 0s;
+        transition: transform 0.35s ease 0s, color 0.35s ease 0s;
+        width: 60%;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    @media only screen and (max-width:768px) { 
+        figure.effect-sadie h4 { font-size: 12px }
+    }
+    @media only screen and (max-width:480px) { 
+        figure.effect-sadie h4 { font-size: 18px }
+    }
+    @media only screen and (max-width:320px) { 
+        figure.effect-sadie h4 { font-size: 14px }
+    }
+    figure.effect-sadie figcaption:before,
+    figure.effect-sadie p {
+        -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+        transition: opacity 0.35s, transform 0.35s;
+    }
+    figure.effect-sadie p {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 2em;
+        width: 100%;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: translate3d(0,10px,0);
+        transform: translate3d(0,10px,0);
+    }
+    figure.effect-sadie:hover h4 {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+        transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+    }
+    figure.effect-sadie:hover figcaption:before,
+    figure.effect-sadie:hover p {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    
+    /*
+     * ----------------------------------------------------------------------------------------
+     * 07.END TOP DEALS DESIGN
+     * ----------------------------------------------------------------------------------------
+     */
+    
+    /*
+    * ----------------------------------------------------------------------------------------
+    * 08.START DEALS & DISCOUNT DESIGN
+    * ----------------------------------------------------------------------------------------
+    */
+    .single-discount {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eee;
+    margin: 0 15px 10px;
+    padding: 10px;
+    transition: all 0.2s ease 0s;
+    }
+    @media only screen and (max-width:480px) { 
+        .single-discount { margin-bottom: 40px }
+    }
+    .single-img {
+        position: relative;
+        width: 100%;
+    }
+    .post-date {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    left: 0;
+    margin-left: 10px;
+    padding: 15px 30px;
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    }
+    .post-date  h4 {
+        color: #333;
+        margin: 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .post-date i {
+      color: #f9461d;
+    }
+    .single_discount_dsc {padding: 10px 10px 0;}
+    .single_discount_dsc h3 {
+        color: #333;
+        display: block;
+        font-size: 20px;
+        margin: 0;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        -webkit-transition: all 0.4s ease 0s;
+                transition: all 0.4s ease 0s;
+    }
+    .single_discount_dsc h3 a:hover { color: #f9461d }
+    .single_discount_dsc p {
+        margin-bottom: 5px;
+    }
+    .single_discount_dsc a {
+        color: #f9461d;
+        font-weight: 400;
+        -webkit-transition: all 0.4s ease 0s;
+                transition: all 0.4s ease 0s;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .single_discount_dsc a:hover { padding-left: 10px }
+    /*START SINGLE TOUR DETAILS*/
+    .single_tour_details{}
+    .single_tour_details img{width:100%;}
+    .single_tour_details span{
+    color: #333;
+    display: block;
+    margin: 10px 0;
+    overflow: hidden;
+    font-size: 17px;
+    text-transform: uppercase;	
+    }
+    .single_tour_details h2{}
+    .single_tour_details p{}
+    .book_now{margin-bottom: 30px;}
+    .book_now h4{
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;	
+    }
+    
+    .book_now input {
+    background: #fff none repeat scroll 0 0;
+    border-color: currentcolor currentcolor #eee;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    color: #333;
+    height: 45px;
+    padding: 10px;
+    }
+    .book_now input:hover,
+    .book_now input:focus {
+    border-color: currentcolor currentcolor #f9461d;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+        box-shadow: none;
+        outline: 0 none;
+    }
+    /*END SINGLE TOUR DETAILS*/
+    /*
+    * ----------------------------------------------------------------------------------------
+    * 08.END DEALS & DISCOUNT DESIGN
+    * ----------------------------------------------------------------------------------------
+    */
+    
+    
+    /*
+    * ----------------------------------------------------------------------------------------
+    * 09.START GALLERY DESIGN
+    * ----------------------------------------------------------------------------------------
+    */
+    .img-gallery{}
+    .gallery_info{
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 40px 30px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 400px;
+    }
+    @media only screen and (max-width:480px) { 
+    .gallery_info {width: 100%;}
+    }
+    .gallery_info h1{
+    text-transform: uppercase;
+    font-weight: 600;	
+    }
+    .gallery_info p{}
+    /*
+    * ----------------------------------------------------------------------------------------
+    * 09.END GALLERY DESIGN
+    * ----------------------------------------------------------------------------------------
+    */
+    /*
+     * ----------------------------------------------------------------------------------------
+     * 10.START BLOG DESIGN
+     * ----------------------------------------------------------------------------------------
+     */
+    .blog_section {
+        padding-top: 50px;
+    }
+    .single_blog { padding-bottom: 60px }
+    @media only screen and (max-width:768px) { 
+        .single_blog img {
+            height: 330px;
+            width: 600px;
+        }
+    }
+    @media only screen and (max-width:480px) { 
+        .single_blog img {
+            height: 300px;
+            width: 350px;
+        }
+    }
+    @media only screen and (max-width:360px) { 
+        .single_blog img {
+            height: 200px;
+            width: 220px;
+        }
+    }
+    @media only screen and (max-width:320px) { 
+        .single_blog img {
+            height: 200px;
+            width: 200px;
+        }
+    }
+    .blog-text {
+        text-align: center;
+        font-size: 14px;
+        color: #727272;
+        width: 100%;
+        line-height: 1.5;
+        padding-top: 10px;
+    }
+    
+        .blog-text h4 {
+            text-align: center;
+            font-size: 36px;
+            color: #000002;
+        }
+    
+        .blog-text h5 {
+            text-align: center;
+            font-size: 16px;
+        }
+    
+        .blog-text a {
+            color: #202020;
+            font-size: 16px;
+            transition: all 0.2s ease 0s;
+        }
+    
+            .blog-text a:hover {
+                color: #f9461d
+            }
+    
+        .blog-text p {
+            margin-top: 20px
+        }
+    
+    .blog-photo {
+        position: inherit;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+        .blog-photo img {
+            position: inherit;
+            width: 100%;
+            height: 220px;
+        }
+    
+    @media only screen and (max-width:480px) {
+        .blog-text {
+            text-align: center;
+            font-size: 10px;
+            color: #727272;
+            width: 100%;
+        }
+    
+        .blog-photo img {
+            position: inherit;
+            width: 100%;
+            height: 200px;
+        }
+    }
+    
+    @media only screen and (max-width:360px) {
+        .blog-text {
+            text-align: center;
+            font-size: 10px;
+            color: #727272;
+        }
+    
+            .blog-text h4 {
+                text-align: center;
+                font-size: 12px;
+                color: #000002;
+            }
+    }
+    
+    @media only screen and (max-width:920px) {
+        .blog-text {
+            text-align: center;
+            font-size: 12px;
+            color: #727272;
+        }
+    }
+    
+    @media only screen and (max-width:1200px) {
+        .blog-text {
+            font-size: 12px;
+            line-height: 1;
+            padding-top: 5px;
+        }
+    
+            .blog-text h4 {
+                font-size: 20px;
+                line-height: 1;
+                color: #000002;
+            }
+    
+        .blog-photo img {
+            position: inherit;
+            width: 100%;
+            height: 150px;
+        }
+    }
+    
+    @media only screen and (max-width:768px) {
+        .blog-text h4 {
+            text-align: center;
+            font-size: 12px;
+            color: #000002;
+        }
+    
+        .blog-text {
+            font-size: 10px;
+            line-height: 0.9em;
+        }
+    
+        .blog-photo img {
+            position: inherit;
+            width: 100%;
+            height: 150px;
+        }
+    }
+    
+    @media only screen and (max-width:992px) {
+        .blog-text h4 {
+            font-size: 20px;
+            color: #000002;
+        }
+    }
+    
+    
+    
+    .section-content {
+    position: relative;
+    height: 400px;
+    }
+    .section-content:before {
+        background:rgba(0, 0, 0, 0) linear-gradient(rgba(34, 38, 75, 0.1), rgba(34, 38, 75, 0.5)) repeat scroll 0 0;
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+    .section-blog-title{
+    background: #f9461d none repeat scroll 0 0;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    display: inline-block;
+    font-weight: 400;
+    padding: 30px;
+    text-transform: uppercase;
+    margin-top: 100px;	
+    }
+    
+    .blog_content{
+    background: #fcfcfc none repeat scroll 0 0;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding: 20px;	
+    }
+    .date{
+    color: #f9461d;
+    font-weight: 400;
+    margin-bottom: 15px;	
+    }
+    .title{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+    .blog_content h4{margin-bottom: 15px;}
+    .blog_content h4 span{
+    font-size: 16px;
+    margin-right: 30px;	
+    }
+    .blog_content img{width: 100%;}
+    .blog_content p{
+    margin-top: 20px;	
+    }
+    .author_part {
+        margin-bottom: 60px;
+        overflow: hidden;
+    }
+    .single_author {
+        background: #f9f9f9 none repeat scroll 0 0;
+        padding: 20px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    }
+    .author_part img {
+        border: 4px solid #f9461d;
+        border-radius: 100px;
+        float: left;
+        height: 120px;
+        margin-bottom: 25px;
+        margin-right: 20px;
+        width: 120px;
+    }
+    .author_part h4 {text-transform: uppercase;
+    font-size: 16px; }
+    .author_part p { margin-bottom: 0 }
+    .blog_head_title {
+    border-bottom: 1px solid #eee;
+    margin: 0 0 30px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    }
+    .comments_part {
+        margin-bottom: 60px;
+        overflow: hidden;
+    }
+    .single_comment {
+        margin-bottom: 30px;
+        background: #f9f9f9;
+        padding: 20px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    }
+    .single_comment_mbnone { margin-bottom: 0px }
+    .single_comment img {
+        border: 4px solid #f9461d;
+        border-radius: 100px;
+        float: left;
+        height: 120px;
+        margin-bottom: 25px;
+        margin-right: 20px;
+        width: 120px;
+    }
+    .single_comment h4 {text-transform: uppercase;
+    font-size: 16px; }
+    .single_comment p { margin-bottom: 0 }
+    .comment-box{padding:0!important;}
+    /*END BLOG SINGLE PAGE DESIGN*/
+    /*START BLOG SIDEBAR*/
+    .blog_sidebar_title {
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    }
+    .search input {
+      border: 1px solid #eee;
+      border-radius:30px;
+      box-shadow: none;
+      color: #333;
+      height: 45px;
+    }
+    .search input:hover,.search input:focus{border: 1px solid #f9461d;box-shadow: none;}
+    .search,
+    .video_post,
+    .categories { margin-bottom: 30px }
+    .categories ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .categories ul li { }
+    .categories ul li a {
+    color: #333;
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px 0;
+    text-transform: uppercase;
+    }
+    .categories ul li a:hover { color: #f9461d }
+    .categories ul li a i { margin-right: 10px }
+    .video_post iframe {
+        width: 100%;
+        height: 220px;
+        border: medium none;
+    }
+    .tag a {
+      margin-bottom: 10px;
+      margin-right: 5px;
+    }
+    .btn-tag-bg {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    color: #333;
+    display: inline-block;
+    font-size: 12px;
+    outline: medium none;
+    padding: 15px 27px;
+    text-transform: uppercase;
+    transition: all 0.2s ease 0s;
+    }
+    .btn-tag-bg:hover,
+    .btn-tag-bg:focus {
+        background: #f9461d;
+        border: 1px solid #f9461d;
+        color: #fff;
+    }
+    /*END BLOG SIDEBAR*/
+    
+    
+    /*
+     * ----------------------------------------------------------------------------------------
+     * 10.END BLOG DESIGN
+     * ----------------------------------------------------------------------------------------
+     */
+     
+    /*
+     * ----------------------------------------------------------------------------------------
+     * 11.START TESTIMONIAL DESIGN
+     * ----------------------------------------------------------------------------------------
+    */
+    .testimonial-demo{ background: #eef1f2; }
+    .testimonial{
+        margin: 0 20px 40px;
+    }
+    .testimonial .testimonial-content{
+        padding: 35px 25px 35px 50px;
+        margin-bottom: 35px;
+        background: #fff;
+        border: 1px solid #f0f0f0;
+        position: relative;
+    }
+    .testimonial .testimonial-content:after{
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        position: absolute;
+        bottom: -10px;
+        left: 22px;
+        transform: rotate(45deg);
+    }
+    .testimonial-content .testimonial-icon{
+        width: 50px;
+        height: 45px;
+        background: #f9461d;
+        text-align: center;
+        font-size: 22px;
+        color: #fff;
+        line-height: 42px;
+        position: absolute;
+        top: 37px;
+        left: -19px;
+    }
+    .testimonial-content .testimonial-icon:before{
+        content: "";
+        border-bottom: 16px solid #f9461d;
+        border-left: 18px solid transparent;
+        position: absolute;
+        top: -16px;
+        left: 1px;
+    }
+    .testimonial .description{
+        font-size: 15px;
+        font-style: italic;
+        color: #8a8a8a;
+        line-height: 23px;
+        margin: 0;
+    }
+    .testimonial .title{
+        display: block;
+        font-size: 18px;
+        font-weight: 700;
+        color: #525252;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin: 0 0 5px 0;
+    }
+    .testimonial .post{
+        display: block;
+        font-size: 14px;
+        color: #f9461d;
+    }
+    .owl-theme .owl-controls {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .owl-theme .owl-controls .owl-page { display: inline-block }
+    .owl-controls .owl-page,
+    .owl-controls .owl-buttons div { cursor: pointer }
+    .owl-theme .owl-controls .owl-page span {
+    background-color: #63499d !important;
+    border-radius: 20px;
+    display: block;
+    height: 12px;
+    margin: 5px 7px;
+    width: 12px;
+    }
+    .owl-theme .owl-controls .owl-page.active span,
+    .owl-theme .owl-controls.clickable .owl-page:hover span { background-color: #fff }
+    .owl-theme .owl-controls {
+      display: block !important;
+      margin-top: 20px;
+      text-align: center;
+    }
+    /*
+     * ----------------------------------------------------------------------------------------
+     * 11.END TESTIMONIAL DESIGN
+     * ----------------------------------------------------------------------------------------
+    */
+    /*
+    * ----------------------------------------------------------------------------------------
+    * 12.START COMPANY PARTNER LOGO
+    * ----------------------------------------------------------------------------------------
+    */
+    .partner-logo {
+      position: relative;
+      padding: 100px 0;
+    }
+    .partner-logo:before {
+        background:rgba(0, 0, 0, 0) linear-gradient(rgba(34, 38, 75, 0.1), rgba(34, 38, 75, 0.5)) repeat scroll 0 0;
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+    }
+    .partner { text-align: center }
+    .partner.owl-theme .owl-controls {display: none!important;}
+    .owl-carousel .owl-item img {
+    border: 1px solid #eee;
+    display: inline-block;
+    width: auto;
+    }
+    /*
+    * ----------------------------------------------------------------------------------------
+    *  12.END COMPANY PARTNER LOGO
+    * ----------------------------------------------------------------------------------------
+    */
+    
+    
+    /*
+    * ----------------------------------------------------------------------------------------
+    * 13.START CONTACT DESIGN
+    * ----------------------------------------------------------------------------------------
+    */
+    .contact_area {
+    background:#eef1f2 ;
+    }
+    .contact {
+    background:#fff;
+    padding: 80px 60px;
+    }
+    
+    .contact input {
+    background: #fff none repeat scroll 0 0;
+    border-color: currentcolor currentcolor #eee;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    box-shadow: none;
+    color: #333;
+    height: 45px;
+    padding: 10px;
+    }
+    .contact textarea {
+        background: #fff none repeat scroll 0 0;
+    border-color: currentcolor currentcolor #eee;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+        border-radius: 3px;
+        box-shadow: none;
+        padding: 10px;
+        color: #333;
+        height: 200px;
+    }
+    .contact input:hover,
+    .contact input:focus {
+    border-color: currentcolor currentcolor #f9461d;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+        box-shadow: none;
+        outline: 0 none;
+    }
+    .contact textarea:hover,
+    .contact textarea:focus {
+        border-color: currentcolor currentcolor #f9461d;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+        box-shadow: none;
+        outline: 0 none;
+    }
+    .success {
+        background: #fff none repeat scroll 0 0;
+        color: #42c0d9;
+        font-weight: 700;
+        padding: 20px;
+        text-align: center;
+    }
+    .contact_address {
+      padding-left: 100px;
+      padding-top: 110px;
+    }
+    @media only screen and (max-width:768px) { 
+    .contact_address {
+      padding-bottom: 60px;
+      padding-left: 60px;
+      padding-top: 60px;
+    }
+    }
+    .contact_address h3 {
+        margin: 0 0 40px;
+        text-transform: uppercase;
+    }
+    .contact_address ul { list-style: none }
+    .contact_address ul li {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .contact_address ul li i {
+        background: #fff none repeat scroll 0 0;
+        border-radius: 30px;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+        color: #f9461d ;
+        font-size: 18px;
+        height: 45px;
+        line-height: 45px;
+        margin-right: 20px;
+        text-align: center;
+        width: 45px;
+    }
+    .btn-contact-bg {
+        background: #00c0ff none repeat scroll 0 0 !important;
+        border: 1px solid #727272 !important;
+        color: #fff !important;
+        font-family: montserrat,sans-serif;
+        font-size: 14px;
+        padding: 5px 20px !important;
+        text-transform: uppercase;
+        transition: all 0.2s ease 0s;
+    }
+    .btn-contact-bg:hover,
+    .btn-contact-bg:focus {
+        background: #333!important;
+        border: 1px solid #333!important;
+        color: #fff;
+    }
+    
+    .topcontrol {
+        background: #fff none repeat scroll 0 0;
+        border-radius: 30px;
+        bottom: 5px;
+        box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+        color: #fff;
+        cursor: pointer;
+        font-size: 22px;
+        height: 35px;
+        line-height: 45px;
+        opacity: 1;
+        position: fixed;
+        right: 5px;
+        text-align: center;
+        transition: all 0.2s ease 0s;
+        width: 35px;
+    }
+    
+        .topcontrol:hover {
+            background: #36acec;
+            color: #fff;
+            height: 50px;
+            width: 50px;
+        }
+    
+    .backbutton {
+        background: #fff none repeat scroll 0 0;
+        border-radius: 30px;
+        bottom: 5px;
+        box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+        color: #fff;
+        cursor: pointer;
+        font-size: 18px;
+        height: 35px;
+        line-height: 45px;
+        opacity: 1;
+        position: fixed;
+        right: 55px;
+        text-align: center;
+        transition: all 0.2s ease 0s;
+        width: 35px;
+    }
+        .backbutton img {
+            width: 20%;
+            margin-top: 13px;
+            margin-left: 0px;
+            margin-right: 0;
+            margin-bottom: 12px;
+        }
+        .backbutton:hover {
+            background: #36acec;
+            color: #fff;
+            height: 50px;
+            width: 50px;
+        }
+            .backbutton:hover img {
+                margin-top: 13px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: auto;
+                width:30%
+            }
+    
+    .login a{
+        color: #bbc7d2;
+    }
+    .login a:hover {
+        color: #000000;
+    }
+    
